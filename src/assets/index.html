@@ -21,13 +21,69 @@
         <a href="#footer">푸터 영역 바로가기</a>
     </div>
 
+    <!-- 헤더 구조 잡기 -->
     <header id="header" role="banner">
-        header
+        <div class="header__inner">
+            <div class="header__logo">
+                <a href="#">portfolio<em>developer</em></a>
+            </div>
+            <nav class="header__nav" role="navigation" aria-label="메인 메뉴">
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#site">site</a></li>
+                    <li><a href="#port">port</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div
+                class="header__nav__moblie"
+                id="headerToggle"
+                aria-controls="primary-menu"
+                aria-expanded="false"
+                role="button"
+                tabindex="0"
+            >
+            <span></span>
+        </div>
+        </div>
     </header>
 
     <main id="main" role="main">
         <section id="intro">
-            intro
+            <div class="intro__inner">
+                <h1 class="intro__title">
+                    port developer
+                </h1>
+                <div class="intro__lines" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <div class="intro__text">
+                    <div class="text">
+                        <div>talent is</div>
+                        <div>found at the end of the</div>
+                        <div>effort</div>
+                    </div>
+                    <div class="img">
+                        <img src="../assets/img/about.jpg" alt="어바웃" />
+                    </div>
+                </div>
+                <div class="intro__lines bottom" aria-hidden="true">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
         </section>
 
         <section id="skill">
