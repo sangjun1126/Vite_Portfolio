@@ -97,3 +97,43 @@
 .port__item .img:hover img {
     filter: saturate(100%);
 }
+
+.port__item.title {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.8rem 0;
+    font-weight: 700;
+    color: var(--black100);
+    border-bottom: 2px solid var(--black100);
+    margin-bottom: 1rem;
+}
+
+.port__item .desc {
+    font-size: 1rem;
+}
+
+.port__item .site {
+    border: 1px solid var(--black100);
+    display: block;
+    text-align: center;
+    padding: 0.625rem 1.5rem;
+    margin-top: 1.5rem;
+}
+
+@media (max-width : 800px) {
+    .port__title {
+        width: 100%;
+        margin-bottom: 16px;
+        font-size: 30px;
+        height: auto;
+        top: 68px;
+        z-index: 1000;
+        background-color: var(--mainBg-color);
+    }
+
+    .port__item {
+        width: 400px;
+        padding: 40px 30px;
+        height: auto;
+    }
+}
